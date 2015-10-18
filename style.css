@@ -26,7 +26,6 @@ body {
 }
 
 .Why {
-  float: left;
   font-family: sans-serif, monospace;
   color: black;
   background-color: #C0C0C0
@@ -39,9 +38,10 @@ body {
   margin: 0 auto;
 }
 
-.city {
+.City {
+  font-family: sans-serif, monospace;
+  color: black;
   background-color: #C0C0C0;
-  float: left;
 }
 
 .miss {
@@ -51,7 +51,11 @@ body {
 
 aside {
   position: absolute;
-  float: right;
   right: 1%;
+  top: 55%;
   border-left: 100px;
+}
+
+#vid-desc {
+  text-align: center;
 }
