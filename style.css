@@ -52,10 +52,19 @@ body {
 aside {
   position: absolute;
   right: 1%;
-  top: 55%;
+  top: 60%;
   border-left: 100px;
 }
 
 #vid-desc {
+  text-align: center;
+}
+
+h2 {
+  font-family: monospace, arial;
+  color: purple;
+}
+
+footer {
   text-align: center;
 }
