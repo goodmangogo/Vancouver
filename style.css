@@ -1,0 +1,57 @@
+.main {
+  width: 100%;
+  height: auto;
+  top: 0px;
+}
+body {
+  background-image: url("background.jpeg");
+  background-size: 100%;
+  background-repeat: repeat;
+  top: 0px
+}
+
+.Everywhere {
+  background-color: #C0C0C0;
+}
+
+.Weird {
+  background-color: #E887D6;
+}
+
+.fixed {
+  position: relative;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+
+.Why {
+  float: left;
+  font-family: sans-serif, monospace;
+  color: black;
+  background-color: #C0C0C0
+}
+
+.Weird-2 {
+  background-color: #E887D6;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.city {
+  background-color: #C0C0C0;
+  float: left;
+}
+
+.miss {
+  background-color: blue
+}
+
+
+aside {
+  position: absolute;
+  float: right;
+  right: 1%;
+  border-left: 100px;
+}
