@@ -12,10 +12,12 @@ body {
 
 .Everywhere {
   background-color: #C0C0C0;
+  text-align: center;
 }
 
 .Weird {
   background-color: #E887D6;
+  text-align: center;
 }
 
 .fixed {
@@ -23,12 +25,14 @@ body {
   position: fixed;
   top: 0px;
   z-index: 100;
+  text-align: center;
 }
 
 .Why {
   font-family: sans-serif, monospace;
   color: black;
-  background-color: #C0C0C0
+  background-color: #C0C0C0;
+  text-align: center;
 }
 
 .Weird-2 {
@@ -41,29 +45,31 @@ body {
 .City {
   font-family: sans-serif, monospace;
   color: black;
+  text-align: center;
   background-color: #C0C0C0;
 }
 
 .miss {
-  background-color: blue
+  background-color: blue;
+  text-align: center;
 }
 
 
-aside {
-  position: absolute;
-  right: 1%;
-  top: 60%;
-  border-left: 100px;
+video{
+display: inline;
+float: left;
 }
 
 #vid-desc {
-  text-align: center;
+  display: inline;
+  float: right;
 }
 
 h2 {
   font-family: monospace, arial;
   color: purple;
 }
+
 
 footer {
   text-align: center;
