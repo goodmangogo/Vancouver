@@ -54,16 +54,20 @@ body {
   text-align: center;
 }
 
-#watch #video {
-  display: inline;
+.video-left {
   float: left;
 }
 
-#p1 #p2 {
-  display: inline;
+.video-right {
   float: right;
+  width: 300px;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 h2 {
   font-family: monospace, arial;
