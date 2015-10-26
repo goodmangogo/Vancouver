@@ -11,6 +11,7 @@ body {
 }
 
 .Everywhere {
+  font-family: 'Oswald', sans-serif;
   background-color: #C0C0C0;
   text-align: center;
 }
@@ -29,7 +30,7 @@ body {
 }
 
 .Why {
-  font-family: sans-serif, monospace;
+  font-family: 'Oswald', sans-serif, monospace;
   color: black;
   background-color: #C0C0C0;
   text-align: center;
