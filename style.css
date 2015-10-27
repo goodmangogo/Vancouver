@@ -11,11 +11,15 @@ body {
 }
 
 .Everywhere {
+  font-family: 'Oswald', sans-serif;
   background-color: #C0C0C0;
+  text-align: center;
 }
 
 .Weird {
+  font-family: 'Montserrat', sans-serif;
   background-color: #E887D6;
+  text-align: center;
 }
 
 .fixed {
@@ -23,13 +27,14 @@ body {
   position: fixed;
   top: 0px;
   z-index: 100;
+  text-align: center;
 }
 
 .Why {
-  float: left;
-  font-family: sans-serif, monospace;
+  font-family: 'Oswald', sans-serif, monospace;
   color: black;
-  background-color: #C0C0C0
+  background-color: #C0C0C0;
+  text-align: center;
 }
 
 .Weird-2 {
@@ -39,19 +44,41 @@ body {
   margin: 0 auto;
 }
 
-.city {
+.City {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-align: center;
   background-color: #C0C0C0;
-  float: left;
 }
 
 .miss {
-  background-color: blue
+  font-family: 'Montserrat', sans-serif;
+  background-color: blue;
+  text-align: center;
+}
+
+.video-left {
+  float: left;
+}
+
+.video-right {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  width: 300px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+  font-family: monospace, arial;
+  color: purple;
 }
 
 
-aside {
-  position: absolute;
-  float: right;
-  right: 1%;
-  border-left: 100px;
+footer {
+  text-align: center;
 }
