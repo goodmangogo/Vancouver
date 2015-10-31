@@ -5,13 +5,16 @@
 #Introduction-Paragraph {
   float: left;
   margin: 30px;
+  font-size: 10px
 }
 
-#Youtube-Video {
- float: right;
- margin: 30px;
-}
+#Youtube-
 
 #logo {
-  height: 100px;
+  height: 200px;
+  margin: 0, auto;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
