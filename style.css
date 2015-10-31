@@ -1,7 +1,17 @@
-
-
-
-
 .Introduction {
-  background-color: grey;
+  background-color: red;
+}
+
+#Introduction-Paragraph {
+  float: left;
+  margin: 30px;
+}
+
+#Youtube-Video {
+ float: right;
+ margin: 30px;
+}
+
+#logo {
+  height: 100px;
 }
