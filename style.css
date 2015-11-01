@@ -2,6 +2,10 @@
   background-color: red;
 }
 
+.main-header {
+  
+}
+
 #Introduction-Paragraph {
   float: left;
   margin: 30px;
@@ -11,8 +15,7 @@
 #Youtube-
 
 #logo {
-  height: 200px;
-  margin: 0, auto;
+  width: 100px
 }
 
 p {
