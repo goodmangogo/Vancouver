@@ -1,84 +1,78 @@
-.main {
-  width: 100%;
-  height: auto;
-  top: 0px;
-}
-body {
-  background-image: url("background.jpeg");
-  background-size: 100%;
-  background-repeat: repeat;
-  top: 0px
-}
-
-.Everywhere {
-  font-family: 'Oswald', sans-serif;
-  background-color: #C0C0C0;
-  text-align: center;
-}
-
-.Weird {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #E887D6;
-  text-align: center;
-}
-
-.fixed {
-  position: relative;
-  position: fixed;
-  top: 0px;
-  z-index: 100;
-  text-align: center;
-}
-
-.Why {
-  font-family: 'Oswald', sans-serif, monospace;
-  color: black;
-  background-color: #C0C0C0;
-  text-align: center;
-}
-
-.Weird-2 {
-  background-color: #E887D6;
-  text-align: center;
+/*main.html background*/
+.top {
   display: block;
-  margin: 0 auto;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  top: 0px;
 }
 
-.City {
-  font-family: 'Oswald', sans-serif;
-  color: black;
-  text-align: center;
-  background-color: #C0C0C0;
-}
-
-.miss {
-  font-family: 'Montserrat', sans-serif;
-  background-color: blue;
-  text-align: center;
-}
-
-.video-left {
-  float: left;
-}
-
-.video-right {
-  font-family: 'Montserrat', sans-serif;
-  float: right;
+#logo {
   width: 300px;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-h2 {
-  font-family: monospace, arial;
-  color: purple;
-}
-
-
-footer {
+.main-header {
+  padding-top: 60px;
   text-align: center;
+}
+/*navigation work*/
+.left {
+  float: left;
+  margin-left: 10px;
+}
+.right {
+  float: right;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 35px;
+}
+
+a {
+  font-size: 30px;
+  font-family: 'Arimo', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+
+/*navigation top bottom border*/
+#menu {
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+/*Welcome to Vancouver*/
+.front {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+#front_h2 {
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+#front_p {
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
+}
+
+
+
+
+/*introduction paragraph/section*/
+
+.Introduction {
+display: block;
+text-align: center;
+margin-top: 300px;
 }
