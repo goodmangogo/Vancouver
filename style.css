@@ -1,23 +1,78 @@
-.Introduction {
-  background-color: red;
+/*main.html background*/
+.top {
+  display: block;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  top: 0px;
+}
+
+#logo {
+  width: 300px;
 }
 
 .main-header {
-  
+  padding-top: 60px;
+  text-align: center;
 }
-
-#Introduction-Paragraph {
+/*navigation work*/
+.left {
   float: left;
-  margin: 30px;
-  font-size: 10px
+  margin-left: 10px;
+}
+.right {
+  float: right;
 }
 
-#Youtube-
-
-#logo {
-  width: 100px
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
+li {
+    display: inline;
+    margin-right: 35px;
+}
+
+a {
+  font-size: 30px;
+  font-family: 'Arimo', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+
+/*navigation top bottom border*/
+#menu {
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+/*Welcome to Vancouver*/
+.front {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+#front_h2 {
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+#front_p {
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
+}
+
+
+
+
+/*introduction paragraph/section*/
+
+.Introduction {
+display: block;
+text-align: center;
+margin-top: 300px;
 }
