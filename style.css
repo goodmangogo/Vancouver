@@ -1,23 +1,85 @@
-/*main.html background*/
-.top {
+@font-face {
+font-family: 'Daliy Quantum';
+src: url('DailyQuantum.ttf');
+}
+
+
+/*TABLE OF CONTENTS
+
+1: Main Menu Exeptions and classes
+2: Menus in General
+3: classes
+3: Introduction Article(Main Page)
+4: Hollywood North(page)
+5: Our City
+6: Films
+
+
+*/
+
+
+
+/*Main Menu
+for backgrounds*/
+#main-menu {
   display: block;
   background-image: url(background.png);
   background-repeat: no-repeat;
-  top: 0px;
+  background-size: 100%;
+}
+.front {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+  }
+  #front_h2 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+  #front_p {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+  }
+  .main .menu {
+    padding-top: 60px;
+    text-align: center;
+  }
+.main a {
+  color: white;
+}
+/*main-menu borders*/
+.main #menu {
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
+
+
+
+
+
+
+/*Menu in General
+for sizes, styles, and layouts*/
 #logo {
-  width: 300px;
+  width: 30%;
 }
-
-.main-header {
-  padding-top: 60px;
+.menu {
+  padding-top: 100px;
   text-align: center;
 }
-/*navigation work*/
+#menu {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .left {
   float: left;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .right {
   float: right;
@@ -33,44 +95,44 @@ li {
     display: inline;
     margin-right: 35px;
 }
-
 a {
   font-size: 30px;
   font-family: 'Arimo', sans-serif;
-  color: white;
+  color: black;
   text-decoration: none;
+
 }
 
 
-/*navigation top bottom border*/
-#menu {
-border-top: 2px solid white;
-border-bottom: 2px solid white;
-padding-top: 10px;
-padding-bottom: 10px;
-}
 
-/*Welcome to Vancouver*/
-.front {
-  text-align: center;
+
+
+
+
+
+/*Classes*/
+
+h2 {
+  background-color: black;
+  padding: 50px;
   color: white;
-  margin-top: 80px;
+  margin-top: 50px;
+  font-family: 'Daliy Quantum';
+  font-size: 90px;
 }
-#front_h2 {
-  font-size: 50px;
-  font-family: 'Oswald', sans-serif;
-}
-#front_p {
-  font-size: 60px;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 100px;
-}
+
+
+
+
+
+
+
+
 
 
 
 
 /*introduction paragraph/section*/
-
 .Introduction {
 display: block;
 text-align: center;
