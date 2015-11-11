@@ -13,6 +13,7 @@ src: url('DailyQuantum.ttf');
 4: Hollywood North(page)
 5: Our City
 6: Films
+7: Footer
 
 
 */
@@ -121,9 +122,9 @@ h2 {
   font-size: 90px;
 }
 
-
-
-
+body {
+  margin: 0px;
+}
 
 
 
@@ -137,4 +138,16 @@ h2 {
 display: block;
 text-align: center;
 margin-top: 300px;
+}
+
+
+
+
+
+
+/*footer*/
+
+footer {
+  background-color: brown;
+  padding: 50px;
 }
