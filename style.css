@@ -3,6 +3,10 @@ font-family: 'Daliy Quantum';
 src: url('DailyQuantum.ttf');
 }
 
+body {
+  text-align: center;
+}
+
 
 /*TABLE OF CONTENTS
 
@@ -95,7 +99,7 @@ nav {
 li {
     display: inline;
     margin-right: 35px;
-}
+  }
 a {
   font-size: 30px;
   font-family: 'Arimo', sans-serif;
@@ -104,6 +108,17 @@ a {
 
 }
 
+@media all and (min-width: 1024px) {
+
+  #logo {
+    width: 20%;
+  }
+
+  a {
+    font-size: 100%;
+  }
+
+}
 
 
 
@@ -111,7 +126,7 @@ a {
 
 
 
-/*Classes*/
+/*Normal Classes*/
 
 h2 {
   background-color: black;
@@ -124,7 +139,15 @@ h2 {
 
 body {
   margin: 0px;
+  margin-right: 0px;
 }
+
+.Weird {
+  margin-top: 500px;
+  margin-bottom: 200px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 
 
@@ -137,8 +160,141 @@ body {
 .Introduction {
 display: block;
 text-align: center;
-margin-top: 300px;
+margin-top: 30%;
 }
+
+@media screen and (min-width: 720px) {
+
+#Introduction-Paragraph {
+  margin: 25%;
+  font-size: 100%;
+}
+
+}
+
+
+
+
+/*Hollywood North Page*/
+
+.Why {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1000px;
+}
+
+#intro_sentence {
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.reasons {
+  margin: 30px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+#tax {
+float: left;
+margin-left: 80px;
+}
+
+#culture {
+float: right;
+margin-right: 80px;
+}
+
+#location {
+  float: left;
+  margin-left: 80px;
+}
+
+#trademark {
+  float: right;
+  margin-right: 80px;
+}
+
+@media all and (min-width: 720px) {
+
+#trademark, #location, #culture, #tax {
+float: none;
+background: blue;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+}
+
+.reasons {
+  font-size: 200%;
+  margin-bottom: 150px;
+}
+
+}
+
+
+
+
+
+
+/*Our City Page*/
+
+.City {
+font-family: Open Sans;
+margin-bottom: 100px;
+}
+
+.Weird #our-city {
+  margin-top: 100px;
+}
+
+
+
+
+
+/*FILMS PAGE*/
+
+#films-from-vancouver h3 {
+  font-family: 'Open Sans';
+  font-size: 200%
+}
+
+.article-t {
+  background-color: grey;
+  border-radius: 15px;
+  margin: 100px;
+  padding: 10px;
+}
+
+.article-t:hover {
+  background: #690;
+  box-shadow: 10px;
+}
+
+.more {
+  background-color: red;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 15px;
+}
+
+@media all (min-width: 1024px) {
+
+.more {
+  display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -149,5 +305,8 @@ margin-top: 300px;
 
 footer {
   background-color: brown;
-  padding: 50px;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
 }
