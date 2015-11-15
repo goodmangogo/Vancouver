@@ -1,23 +1,90 @@
-/*main.html background*/
-.top {
+@font-face {
+font-family: 'Daliy Quantum';
+src: url('DailyQuantum.ttf');
+}
+
+body {
+  text-align: center;
+}
+
+
+/*TABLE OF CONTENTS
+
+1: Main Menu Exeptions and classes
+2: Menus in General
+3: classes
+3: Introduction Article(Main Page)
+4: Hollywood North(page)
+5: Our City
+6: Films
+7: Footer
+
+
+*/
+
+
+
+/*Main Menu
+for backgrounds*/
+#main-menu {
   display: block;
   background-image: url(background.png);
   background-repeat: no-repeat;
-  top: 0px;
+  background-size: 100%;
+}
+.front {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+  }
+  #front_h2 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+  #front_p {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+  }
+  .main .menu {
+    padding-top: 60px;
+    text-align: center;
+  }
+.main a {
+  color: white;
+}
+/*main-menu borders*/
+.main #menu {
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
+
+
+
+
+
+
+/*Menu in General
+for sizes, styles, and layouts*/
 #logo {
-  width: 300px;
+  width: 30%;
 }
-
-.main-header {
-  padding-top: 60px;
+.menu {
+  padding-top: 100px;
   text-align: center;
 }
-/*navigation work*/
+#menu {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .left {
   float: left;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .right {
   float: right;
@@ -32,47 +99,214 @@ nav {
 li {
     display: inline;
     margin-right: 35px;
-}
-
+  }
 a {
   font-size: 30px;
   font-family: 'Arimo', sans-serif;
-  color: white;
+  color: black;
   text-decoration: none;
+
+}
+
+@media all and (min-width: 1024px) {
+
+  #logo {
+    width: 20%;
+  }
+
+  a {
+    font-size: 100%;
+  }
+
 }
 
 
-/*navigation top bottom border*/
-#menu {
-border-top: 2px solid white;
-border-bottom: 2px solid white;
-padding-top: 10px;
-padding-bottom: 10px;
-}
 
-/*Welcome to Vancouver*/
-.front {
-  text-align: center;
+
+
+
+
+/*Normal Classes*/
+
+h2 {
+  background-color: black;
+  padding: 50px;
   color: white;
-  margin-top: 80px;
+  margin-top: 50px;
+  font-family: 'Daliy Quantum';
+  font-size: 90px;
 }
-#front_h2 {
+
+body {
+  margin: 0px;
+  margin-right: 0px;
+}
+
+.Weird {
+  margin-top: 500px;
+  margin-bottom: 200px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*introduction paragraph/section*/
+.Introduction {
+display: block;
+text-align: center;
+margin-top: 30%;
+}
+
+@media screen and (min-width: 720px) {
+
+#Introduction-Paragraph {
+  margin: 25%;
+  font-size: 100%;
+}
+
+}
+
+
+
+
+/*Hollywood North Page*/
+
+.Why {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1000px;
+}
+
+#intro_sentence {
   font-size: 50px;
-  font-family: 'Oswald', sans-serif;
+  margin-bottom: 80px;
 }
-#front_p {
-  font-size: 60px;
-  font-family: 'Raleway', sans-serif;
+
+.reasons {
+  margin: 30px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+#tax {
+float: left;
+margin-left: 80px;
+}
+
+#culture {
+float: right;
+margin-right: 80px;
+}
+
+#location {
+  float: left;
+  margin-left: 80px;
+}
+
+#trademark {
+  float: right;
+  margin-right: 80px;
+}
+
+@media all and (min-width: 720px) {
+
+#trademark, #location, #culture, #tax {
+float: none;
+background: blue;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+}
+
+.reasons {
+  font-size: 200%;
+  margin-bottom: 150px;
+}
+
+}
+
+
+
+
+
+
+/*Our City Page*/
+
+.City {
+font-family: Open Sans;
+margin-bottom: 100px;
+}
+
+.Weird #our-city {
   margin-top: 100px;
 }
 
 
 
 
-/*introduction paragraph/section*/
 
-.Introduction {
-display: block;
-text-align: center;
-margin-top: 300px;
+/*FILMS PAGE*/
+
+#films-from-vancouver h3 {
+  font-family: 'Open Sans';
+  font-size: 200%
+}
+
+.article-t {
+  background-color: grey;
+  border-radius: 15px;
+  margin: 100px;
+  padding: 10px;
+}
+
+.article-t:hover {
+  background: #690;
+  box-shadow: 10px;
+}
+
+.more {
+  background-color: red;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 15px;
+}
+
+@media all (min-width: 1024px) {
+
+.more {
+  display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer {
+  background-color: brown;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
 }
