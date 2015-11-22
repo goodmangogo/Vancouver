@@ -1,6 +1,6 @@
-This is my project!
+This is my Project!
 
-Research
-Made within 2 weeks(probably)
+v 3.0
+not finished
 
 Project Link -> http://goodmangogo.github.io/Vancouver/
