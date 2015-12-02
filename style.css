@@ -26,99 +26,56 @@ body {
 
 /*Main Menu
 for backgrounds*/
-#main-menu {
-  display: block;
-  background-image: url(background.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.front {
-    text-align: center;
-    color: white;
-    margin-top: 80px;
-  }
-  #front_h2 {
-    font-size: 50px;
-    font-family: 'Oswald', sans-serif;
-  }
-  #front_p {
-    font-size: 60px;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 100px;
-  }
-  .main .menu {
-    padding-top: 60px;
-    text-align: center;
-  }
-.main a {
-  color: white;
-}
-/*main-menu borders*/
-.main #menu {
-border-top: 2px solid white;
-border-bottom: 2px solid white;
-padding-top: 10px;
-padding-bottom: 10px;
-}
-
-
-
 
 
 
 
 /*Menu in General
 for sizes, styles, and layouts*/
-#logo {
-  width: 30%;
-}
-.menu {
-  padding-top: 100px;
-  text-align: center;
-}
-#menu {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.left {
-  float: left;
-  margin-left: 30px;
-}
-.right {
-  float: right;
-}
 
-nav {
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
 }
 
 li {
-    display: inline;
-    margin-right: 35px;
-  }
-a {
-  font-size: 30px;
-  font-family: 'Arimo', sans-serif;
   color: black;
-  text-decoration: none;
-
+  float: left;
+  margin-right: 7px;
 }
 
-@media all and (min-width: 1024px) {
-
-  #logo {
-    width: 20%;
-  }
-
-  a {
-    font-size: 100%;
-  }
-
+#logo {
+  float: left
+width: 250px;
 }
+
+
+li a {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -127,6 +84,23 @@ a {
 
 
 /*Normal Classes*/
+
+.banner {
+  background-image: url(city-background-mobile.jpg);
+  background-size: cover;
+  height: 35vh;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 10vh;
+}
+
+
 
 h2 {
   background-color: black;
@@ -160,7 +134,7 @@ body {
 .Introduction {
 display: block;
 text-align: center;
-margin-top: 30%;
+margin-top: 0px;
 }
 
 @media screen and (min-width: 720px) {
@@ -182,9 +156,10 @@ margin-top: 30%;
   margin-bottom: 1000px;
 }
 
-#intro_sentence {
+#Introduction-Sentence {
   font-size: 50px;
   margin-bottom: 80px;
+  margin-top: 0px;
 }
 
 .reasons {
