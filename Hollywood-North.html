@@ -17,7 +17,7 @@ Hollywood North
 <!-- Navigation -->
   <article class="menu" id="submenu">
   <header class="subpage">
-<a href="main.html">  <img src="logo.png" id="logo"></a>
+<a href="index.html">  <img src="logo.png" id="logo"></a>
     <nav class="left">
       <li><a href="main.html" id="menu">Main</a></li>
       <li><a href="Hollywood-North.html" id="menu">Hollywood North</a></li>
@@ -28,47 +28,29 @@ Hollywood North
     </nav>
 </header>
 
-
-
-
-
-
-
-
-
-<!-- Page Paragraph REASONS -->
-<article class="Why">
-    <h2>Why HollyWood North?</h2>
-    <p id="intro_sentence">The film industry Loves Vancouver because...</p>
-
-<div class="reasons" id="tax">
-    <i class="fa fa-money fa-5x"></i><br />Tax Credits
+<div class="form">
+<h1>Give a Shout For Your City</h1>
 </div>
 
-<div class="reasons" id="culture">
-      <i class="fa fa-hand-spock-o fa-5x"></i><br />Multiculture
+<form action="form.txt" method="get">
+<div class="form-1">
+<label for="name">My name is...</label>
+<input type="text" name="name" size="12">
+
+<label for="who">I am a...</label>
+<select id="who">
+<option value="vancouverite" class="select">Vancouverite</option>
+<option value="canadian" class="select">Canadian</option>
+<option value="other" class="select">Other</option>
 </div>
 
-<div class="reasons" id="location">
-    <i class="fa fa-map-marker fa-5x"></i><br />Location from<br />Hollywood
+<div class="form-2">
+<label for="message">Your Message:</label>
+<textarea name= "message" cols="10" rows="5">Show us your Passion!</textarea>
 </div>
 
-
-<div class="reasons" id="trademark">
-    <i class="fa fa-trademark fa-5x"></i><br />It has no<br />trademark
-</div>
-</article>
-
-
-
-<!-- Section -->
-<section class="Weird">
-  <h2>Weird Fact</h2>
-<p>Universities in Vancouver Plays Everywhere but Vancouver.<br />
-UBC always plays an University, BCIT, as a Government Facility,<br />
-and SFU as an Evil Corporation.</p>
-</section>
-
+<button type="submit">Send</button>
+</form>
 
 
 <footer>
@@ -77,6 +59,7 @@ and SFU as an Evil Corporation.</p>
 </footer>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 </body>
 </html>
