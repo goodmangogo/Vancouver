@@ -1,12 +1,20 @@
-// $('#who').on('change',function() {
-//   $selected = $(this).val()
-//
-//   if ( $selected == '#select') {
-//       $('.form-2').show();
-// }
-// }
+
+$(document).ready(function() {
 
 
 
 
-// alert();
+// When Click...
+$(".hamburger").click( function () {
+  // Do the Magic
+$(".hamburger-nav").fadeToggle("fast");
+});
+});
+
+$(document).ready(function() {
+
+  $("#submit-btn").on('click', function(event) {
+    event.preventDefault();
+    $('fb-share-button').show();
+});
+});

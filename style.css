@@ -5,22 +5,256 @@ src: url('DailyQuantum.ttf');
 
 body {
   text-align: center;
+  margin: 0px;
+  margin-right: 0px;
+  overflow-x: hidden;
 }
 
 
-/*TABLE OF CONTENTS
-
-1: Main Menu Exeptions and classes
-2: Menus in General
-3: classes
-3: Introduction Article(Main Page)
-4: Hollywood North(page)
-5: Our City
-6: Films
-7: Footer
+/*********************************************************************************************************************************************
+**********************************************************************************************************************************************
+**********************************************************************************************************************************************
 
 
-*/
+RULES: Each Content-Section Has Orders, it follows:
+
+      1: Css
+      2: Media Queries (Smallest To Biggest)
+
+
+
+
+Table of Contents
+
+1:  Navigation
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+
+
+
+**********************************************************************************************************************************************
+**********************************************************************************************************************************************
+***********************************************************************************************************************************************/
+
+
+/*********************************************************************************************************************************************
+---------------------------Navigation CSS----------------------------
+**********************************************************************************************************************************************/
+
+
+.menu {
+  padding-top: 100px;
+  text-align: center;
+}
+#menu {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.left {
+  float: left;
+  margin-left: 30px;
+}
+.right {
+  float: right;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 35px;
+  }
+
+a {
+  font-size: 30px;
+  font-family: 'Arimo', sans-serif;
+  color: black;
+  text-decoration: none;
+
+}
+
+.main #menu { /* Borders */
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.hamburger,
+.hamburger-nav {
+  display: none;
+}
+
+
+
+
+/*Phone Size*/
+@media all and (max-width:480px) {
+
+header {
+  width: 100%;
+  z-index: 1;
+}
+
+.hamburger,
+.hamburger-nav {
+  display: inline;
+}
+
+.main-header {
+display: none;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  background-color: orange;
+}
+
+.hamburger-nav {
+
+}
+
+#hamburger-menu {
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+  background-color: #333
+}
+
+#hamburger-menu:hover {
+  color: yellow;
+}
+
+.logo {
+  background-image: url(background.png);
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+#main-menu {
+margin-top: 0px;
+padding-top: 0px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************************************************************************
+-------------------------------------------MAIN PAGE CSS------------------------------------------------------------------------------------
+*********************************************************************************************************************************************/
+
+
+.front {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+  }
+
+  #front_h2 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+  #front_p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    }
+
+.main {
+  background-image: url(front.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+
+  .main .menu {
+    padding-top: 60px;
+    text-align: center;
+  }
+.main a {
+  color: white;
+}
+
+
+@media screen and (max-width:480px) {
+
+#front_h2 {
+  font-size: 30px;
+  position: relative;
+}
+
+#front_p {
+  font size: 25px;
+  position: relative;
+}
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -69,112 +303,15 @@ form {
 }
 
 .form-1 {
-  background-color: cyan;
-  float: left;
+
 }
 
 .form-2 {
-  background-color: cyan;
-  float: right;
-}
-
-
-
-/*Main Menu
-for backgrounds*/
-#main-menu {
-  display: block;
-  background-image: url(background.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.front {
-    text-align: center;
-    color: white;
-    margin-top: 80px;
-  }
-  #front_h2 {
-    font-size: 50px;
-    font-family: 'Oswald', sans-serif;
-  }
-  #front_p {
-    font-size: 60px;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 100px;
-  }
-  .main .menu {
-    padding-top: 60px;
-    text-align: center;
-  }
-.main a {
-  color: white;
-}
-/*main-menu borders*/
-.main #menu {
-border-top: 2px solid white;
-border-bottom: 2px solid white;
-padding-top: 10px;
-padding-bottom: 10px;
-}
-
-
-
-
-
-
-
-/*Menu in General
-for sizes, styles, and layouts*/
-#logo {
-  width: 30%;
-}
-.menu {
-  padding-top: 100px;
-  text-align: center;
-}
-#menu {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.left {
-  float: left;
-  margin-left: 30px;
-}
-.right {
-  float: right;
-}
-
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-    margin-right: 35px;
-  }
-a {
-  font-size: 30px;
-  font-family: 'Arimo', sans-serif;
-  color: black;
-  text-decoration: none;
 
 }
 
-@media all and (min-width: 1024px) {
 
-  #logo {
-    width: 20%;
-  }
 
-  a {
-    font-size: 100%;
-  }
-
-}
 
 
 
@@ -193,10 +330,7 @@ h2 {
   font-size: 90px;
 }
 
-body {
-  margin: 0px;
-  margin-right: 0px;
-}
+
 
 .Weird {
   margin-top: 500px;
@@ -216,7 +350,7 @@ body {
 .Introduction {
 display: block;
 text-align: center;
-margin-top: 30%;
+margin-top: 55%;
 }
 
 @media screen and (min-width: 720px) {
@@ -338,6 +472,11 @@ margin-bottom: 100px;
   display: none;
 }
 
+
+}]\
+
+
+@@media screen {
 
 }
 
