@@ -1,0 +1,19 @@
+/*Phone Size*/
+@media all and (max-witdh: 480px) {
+
+}
+
+/*Tablet Size*/
+@media all and (min-width: 481px) and (max-width: 600px) {
+
+}
+
+/*Desktop Size / Ipad-pro size*/
+@media all and (min-width: 601px) and (max-width: 1024px){
+
+}
+
+/* Big Desktop Size*/
+@media all and (min-width: 1025px) {
+
+}

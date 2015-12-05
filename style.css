@@ -5,57 +5,237 @@ src: url('DailyQuantum.ttf');
 
 body {
   text-align: center;
+  margin: 0px;
+  margin-right: 0px;
+  overflow-x: hidden;
 }
 
 
-/*TABLE OF CONTENTS
-
-1: Main Menu Exeptions and classes
-2: Menus in General
-3: classes
-3: Introduction Article(Main Page)
-4: Hollywood North(page)
-5: Our City
-6: Films
-7: Footer
+/*********************************************************************************************************************************************
+**********************************************************************************************************************************************
+**********************************************************************************************************************************************
 
 
-*/
+RULES: Each Content-Section Has Orders, it follows:
 
-
-
-/*Main Menu
-for backgrounds*/
+      1: Css
+      2: Media Queries (Smallest To Biggest)
 
 
 
 
-/*Menu in General
-for sizes, styles, and layouts*/
+Table of Contents
 
-ul {
+1:  Navigation
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+
+
+
+**********************************************************************************************************************************************
+**********************************************************************************************************************************************
+***********************************************************************************************************************************************/
+
+
+/*********************************************************************************************************************************************
+---------------------------Navigation CSS----------------------------
+**********************************************************************************************************************************************/
+
+
+.menu {
+  padding-top: 100px;
+  text-align: center;
+}
+#menu {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.left {
+  float: left;
+  margin-left: 30px;
+}
+.right {
+  float: right;
+}
+
+nav {
     list-style-type: none;
-    overflow: hidden;
-    float: right;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 li {
+    display: inline;
+    margin-right: 35px;
+  }
+
+a {
+  font-size: 30px;
+  font-family: 'Arimo', sans-serif;
   color: black;
-  float: left;
-  margin-right: 7px;
+  text-decoration: none;
+
 }
 
-#logo {
-  float: left
-width: 250px;
+.main #menu { /* Borders */
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.hamburger,
+.hamburger-nav {
+  display: none;
 }
 
 
-li a {
+
+
+/*Phone Size*/
+@media all and (max-width:480px) {
+
+header {
+  width: 100%;
+  z-index: 1;
+}
+
+.hamburger,
+.hamburger-nav {
+  display: inline;
+}
+
+.main-header {
+display: none;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  background-color: orange;
+}
+
+.hamburger-nav {
+
+}
+
+#hamburger-menu {
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+  background-color: #333
+}
+
+#hamburger-menu:hover {
+  color: yellow;
+}
+
+.logo {
+  background-image: url(background.png);
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+#main-menu {
+margin-top: 0px;
+padding-top: 0px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************************************************************************
+-------------------------------------------MAIN PAGE CSS------------------------------------------------------------------------------------
+*********************************************************************************************************************************************/
+
+
+.front {
     text-align: center;
-    text-decoration: none;
+    color: white;
+    margin-top: 80px;
+  }
+
+  #front_h2 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+  #front_p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    }
+
+.main {
+  background-image: url(front.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+
+  .main .menu {
+    padding-top: 60px;
+    text-align: center;
+  }
+.main a {
+  color: white;
+}
+
+
+@media screen and (max-width:480px) {
+
+#front_h2 {
+  font-size: 30px;
+  position: relative;
+}
+
+#front_p {
+  font size: 25px;
+  position: relative;
+}
+
+}
+
+
+
+
+
 }
 
 
@@ -73,6 +253,62 @@ li a {
 
 
 
+
+
+
+
+
+.city-banner {
+  background-image: url(city-background.jpg);
+  background-size: cover;
+  height: 25vh;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 10vh;
+}
+
+h3 {
+background: darkcyan;
+font-family: 'Oswald', sans-serif;
+padding: 15px;
+font-size: 30px;
+}
+
+.video {
+  background-image: url(film-dir.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  background-color: #333;
+  padding: 30px;
+}
+
+.form {
+  background-image: url(vancouver-towers.jpg);
+  background-size: cover;
+  background-repeat: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+form {
+  margin-top: 100px;
+}
+
+.form-1 {
+
+}
+
+.form-2 {
+
+}
 
 
 
@@ -85,23 +321,6 @@ li a {
 
 /*Normal Classes*/
 
-.banner {
-  background-image: url(city-background-mobile.jpg);
-  background-size: cover;
-  height: 35vh;
-  text-align: center;
-  margin: 50px;
-}
-
-h1 {
-  color: white;
-  font-size: 60px;
-  font-family: 'Oswald', sans-serif;
-  padding-top: 10vh;
-}
-
-
-
 h2 {
   background-color: black;
   padding: 50px;
@@ -111,10 +330,7 @@ h2 {
   font-size: 90px;
 }
 
-body {
-  margin: 0px;
-  margin-right: 0px;
-}
+
 
 .Weird {
   margin-top: 500px;
@@ -134,7 +350,7 @@ body {
 .Introduction {
 display: block;
 text-align: center;
-margin-top: 0px;
+margin-top: 55%;
 }
 
 @media screen and (min-width: 720px) {
@@ -156,10 +372,9 @@ margin-top: 0px;
   margin-bottom: 1000px;
 }
 
-#Introduction-Sentence {
+#intro_sentence {
   font-size: 50px;
   margin-bottom: 80px;
-  margin-top: 0px;
 }
 
 .reasons {
@@ -257,6 +472,11 @@ margin-bottom: 100px;
   display: none;
 }
 
+
+}]\
+
+
+@@media screen {
 
 }
 
