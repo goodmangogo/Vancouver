@@ -149,9 +149,16 @@ display: none;
 margin-top: 0px;
 padding-top: 0px;
 }
+}
+
+@media screen and (min-width:481px) and (max-width:720px) {
+
+  #menu {
+    font-size: 15px;
+  }
 
 
-
+}
 
 
 }
@@ -233,10 +240,6 @@ padding-top: 0px;
 }
 
 
-
-
-
-}
 
 
 
